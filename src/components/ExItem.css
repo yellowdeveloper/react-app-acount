@@ -1,0 +1,29 @@
+.item {
+  padding: 10px 20px;
+  margin-bottom: 1rem;
+  border: 1px solid var(--secondColor);
+  display: flex;
+  justify-content: space-between;
+  border-radius: 12px;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  flex: 0 0 55%;
+  line-height: 3rem;
+}
+.expense {
+  margin-right: 2rem;
+}
+.amount {
+  padding: 3px;
+}
+.edit-btn,
+.clear-btn {
+}
+.edit-btn {
+  color: var(--mainGreen);
+}
+.clear-btn {
+  color: var(--mainRed);
+}

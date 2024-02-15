@@ -1,0 +1,15 @@
+.form-center {
+  display: flex;
+}
+.form-group {
+  flex: 1;
+  padding: 1rem;
+}
+.form-control {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid var(--secondColor);
+  height: 3rem;
+  width: 100%;
+  font-size: 16px;
+}
